@@ -37,4 +37,4 @@ If you want to use a another mirror site, use mirror variable.
 As Red Hat Enterprise Linux ISOs are not publicly retrievable the URL in the templates are fake. Likewise as the OEL ISO's required accpecting the license and seeting some cookie the URL is also no good. To use these templates you should substitute your local server where you host the ISOs, using the mirror variable as above.
 
 ### CentOS
-As CentOS 7rc ISO images are not yet avialble the box current uses the boot.iso file and installs over the network and hence will be slower to build. The template is based on Release Candidate 20140704-1 from 4th of July.
+As CentOS 7rc ISO images are not yet avialble the box currently uses the boot.iso file and installs over the network and hence will be slower to build. The template is based on Release Candidate 20140704-1 from 4th of July.
