@@ -6,9 +6,9 @@ A collection of my [Packer](http://packer.io) templates for building [Vagrant](h
 ## Current Baseboxes
 
 The current basebox set includes Red Hat 7 and rhel varitants Centos and OEL
-At time or writing  only Red Hat has an offical release the others are in Beta or RC state
+At time or writing only OEL is in Beta release candidate.
 
-- centos-7.0rc-x86_64.json
+- centos-7.0-x86_64.json
 - oel-7.0rc-x86_64.json
 - rhel-7.0-x86_64.json
 
@@ -34,7 +34,4 @@ If you want to use a another mirror site, use mirror variable.
  
 ### mirror URL
 
-As Red Hat Enterprise Linux ISOs are not publicly retrievable the URL in the templates are fake. Likewise as the OEL ISO's required accpecting the license and seeting some cookie the URL is also no good. To use these templates you should substitute your local server where you host the ISOs, using the mirror variable as above.
-
-### CentOS
-As CentOS 7rc ISO images are not yet avialble the box currently uses the boot.iso file and installs over the network and hence will be slower to build. The template is based on Release Candidate 20140704-1 from 4th of July.
+As Red Hat Enterprise Linux ISOs are not publicly retrievable the URL in the template is fake. Likewise as the OEL ISO's required accpecting the license agreement and seeting some cookie the URL is also not good. To use these templates you should substitute your local server where you host the ISO's, using the mirror variable as above.
