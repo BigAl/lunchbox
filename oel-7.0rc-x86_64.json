@@ -38,11 +38,11 @@
     },
     {
       "boot_command": [
-        "<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/rhel-7.0/ks.cfg<enter><wait>"
+        "<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/centos-7.0/ks.cfg<enter><wait>"
       ],
       "boot_wait": "10s",
       "disk_size": 40960,
-      "guest_os_type": "redhat-64",
+      "guest_os_type": "oraclelinux-64",
       "http_directory": "http",
       "iso_checksum": "935a77128b4c4c02bccf1a475c5bdf71c7c9c3644258fbb6bd12de3dd3730431",
       "iso_checksum_type": "sha256",

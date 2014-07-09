@@ -18,7 +18,7 @@ The boxes were built and tested with virtualbox 4.3.12
 
 ### VMware
 
-Configuration for VMware is include in the templates but as of now untested.
+The boxes werer built and tested on VMware Fusion 6.0.4.
 
 ## Build Your Own Boxes
  
