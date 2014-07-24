@@ -14,11 +14,12 @@ At time or writing only OEL is in Beta release candidate.
 
 ### VirtualBox
 
-The boxes were built and tested with virtualbox 4.3.12
+The boxes were built and tested with virtualbox 4.3.14
+***Note the VirtualBox guest addtions do not work for version 4.3.12***
 
 ### VMware
 
-The boxes werer built and tested on VMware Fusion 6.0.4.
+The boxes were built and tested on VMware Fusion 6.0.4.
 
 ## Build Your Own Boxes
  
@@ -26,12 +27,12 @@ First, download and install [Packer](http://packer.io) .
 
 The templates are JSON files that describe how each box that can be built. You can use `packer build` to build the boxes.
 
-     $ packer build -only=virtualbox-iso centos-7.0rc-x86_64.json
+     $ packer build -only=virtualbox-iso centos-7.0-x86_64.json
  
 If you want to use a another mirror site, use mirror variable.
  
-     $ packer build -var 'mirror=http://mirror.home.lan/centos' -only=virtualbox-iso centos-7.0rc-x86_64.json
+     $ packer build -var 'mirror=http://mirror.home.lan/centos' -only=virtualbox-iso centos-7.0-x86_64.json
  
 ### mirror URL
 
-As Red Hat Enterprise Linux ISOs are not publicly retrievable the URL in the template is fake. Likewise as the OEL ISO's required accpecting the license agreement and seeting some cookie the URL is also not good. To use these templates you should substitute your local server where you host the ISO's, using the mirror variable as above.
+As Red Hat Enterprise Linux ISOs are not publicly retrievable the URL in the template is fake. Likewise as the OEL ISO's required accpecting the license agreement and setting some cookie the URL is also not good. To use these templates you should substitute your local server where you host the ISO's, using the mirror variable as above.
