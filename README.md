@@ -9,7 +9,7 @@ The current basebox set includes Red Hat 7 and rhel varitants Centos and OEL
 At time or writing only OEL is in Beta release candidate.
 
 - centos-7.0-x86_64.json
-- oel-7.0rc-x86_64.json
+- oel-7.0-x86_64.json
 - rhel-7.0-x86_64.json
 
 ### VirtualBox

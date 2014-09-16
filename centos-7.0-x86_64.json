@@ -65,7 +65,7 @@
   ],
   "post-processors": [
     {
-      "output": "./builds/{{.Provider}}/centos-7.0.box",
+      "output": "./builds/{{.Provider}}/centos-7.0-{{isotime \"2006-01-02\"}}.box",
       "type": "vagrant"
     }
   ],
